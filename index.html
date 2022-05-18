@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="all">
+        <img id="instructions-icon" src="http://cdn.onlinewebfonts.com/svg/img_199693.png">
+        <div id="instructions">
+            <p><strong>Instructions</strong>
+                <br>
+            <ol>
+                <li>Click the space button to start playing.</li>
+                <li>The ball starts to move across the board. Click the space key when the ball is inside the blue box.
+                </li>
+                <li>Your life is represented in the bar on the bottom-left corner. If you miss the box- you loose life.
+                </li>
+                <li>If you caught the ball inside the box- you receive 1 point (see on top left). In addition, the speed
+                    of the ball is increased.</li>
+                <li>Make sure to receive as many points as possible before your life runs out.</li>
+                <li>Good luck!!</li>
+            </ol>
+            </p>
+            <button id="return" type="button">return to game</button>
+        </div>
+        <div id="target-and-points">
+            <img id="target"
+                src="./kisspng-bullseye-shooting-target-clip-art-eye-5acc4175731492.1666488515233355414714.png"
+                alt="points" width="80">
+            <div id="points">
+            </div>
+        </div>
+        <div id="canvas">
+            <div class="goal">
+                <div id="ball"></div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div id="score">
+                <div id="life">
+                    <div id="life-left"> </div>
+                </div>
+            </div>
+        </div>
+
+       
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
